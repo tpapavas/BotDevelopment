@@ -38,7 +38,9 @@ public class CommandManager extends ListenerAdapter  {
                 new ByeCommand(),
                 new LoggerCommand(),
                 new GifCommand(config.getValue(ConfigKey.GIPHY_KEY)),
-                new CointossCommand()
+                new CointossCommand(),
+                new ThreadCreationCommand(),
+                new ThreadMessageCommand()
         };
 
         // for each command
